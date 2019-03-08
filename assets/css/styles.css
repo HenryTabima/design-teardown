@@ -1,95 +1,94 @@
 * {
-    box-sizing: border-box;
-    padding: 20px;
+  padding: 20px;
+  box-sizing: border-box;
 }
 
 body {
-    font-family: 'Srisakdi', cursive;
+  font-family: 'Srisakdi', cursive;
 }
 
 .navigation ul {
-    display: flex;
-    width: 100%;
-    justify-content: space-around;
-    min-height: 80px;
-    align-items: center;
-    border: 3px dashed salmon;
+  display: flex;
+  width: 100%;
+  min-height: 80px;
+  border: 3px dashed salmon;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .main {
-    display: flex;
-    position: relative;
-    flex-wrap: wrap;
-    padding: 0;
+  position: relative;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
 }
 
 .call-to-action {
-    position: absolute;
-    display: flex;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    top: 50px;
-
+  position: absolute;
+  top: 50px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
 }
 
 .call-to-action p {
-    text-align: center;
+  text-align: center;
 }
 
 .main-item {
-    width: 50%;
-    height: 700px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border: 3px dashed teal;
+  display: flex;
+  width: 50%;
+  height: 700px;
+  border: 3px dashed teal;
+  align-items: center;
+  justify-content: center;
 }
 
 .sub-main-items {
-    display: flex;
+  display: flex;
 }
 
 .sub-main-items li {
-    flex: 1;
-    margin: 20px;
-    height: 200px;
-    text-align: center;
-    justify-content: center;
-    border: 3px dashed lawngreen;
+  height: 200px;
+  margin: 20px;
+  text-align: center;
+  border: 3px dashed lawngreen;
+  flex: 1;
+  justify-content: center;
 }
 
 /* General Styles */
 
 [class*="heat-"] {
-    padding: 20px;
+  padding: 20px;
 }
 
 .heat-1 {
-    background-color: #000;
-    color: white;
-    font-size: 2.5rem;
-    font-weight: bold;
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #000;
 }
 
 .heat-2 {
-    background-color: #333;
-    color: white;
-    font-size: 2.2rem
+  font-size: 2.2rem;
+  color: white;
+  background-color: #333;
 }
 
 .heat-3 {
-    background-color: #666;
-    color: white;
-    font-size: 1.6rem
+  font-size: 1.6rem;
+  color: white;
+  background-color: #666;
 }
 
 .heat-4 {
-    background-color: #999;
-    font-size: 1.2rem
+  font-size: 1.2rem;
+  background-color: #999;
 }
 
 .heat-5 {
-    background-color: #ccc;
-    font-size: 1rem
+  font-size: 1rem;
+  background-color: #ccc;
 }
