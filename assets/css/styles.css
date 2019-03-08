@@ -1,60 +1,95 @@
-*{
+* {
     box-sizing: border-box;
-    border: 1px solid salmon;
     padding: 20px;
 }
 
+body {
+    font-family: 'Srisakdi', cursive;
+}
 
-.navigation ul{
+.navigation ul {
     display: flex;
     width: 100%;
     justify-content: space-around;
     min-height: 80px;
     align-items: center;
+    border: 3px dashed salmon;
 }
 
-.main{
+.main {
     display: flex;
     position: relative;
     flex-wrap: wrap;
     padding: 0;
 }
-.call-to-action{
+
+.call-to-action {
     position: absolute;
     display: flex;
     width: 100%;
     flex-direction: column;
     align-items: center;
     top: 50px;
-    
+
 }
 
-.call-to-action p{
+.call-to-action p {
     text-align: center;
-    background: grey;
-    color: white;
-    
-
-
 }
 
-.main-item{
+.main-item {
     width: 50%;
-    height: 400px;
+    height: 700px;
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 2px solid greenyellow;
+    border: 3px dashed teal;
 }
 
-.sub-main-items{
+.sub-main-items {
     display: flex;
 }
-.sub-main-items li{
+
+.sub-main-items li {
     flex: 1;
     margin: 20px;
     height: 200px;
     text-align: center;
     justify-content: center;
-    border:2px solid red;
+    border: 3px dashed lawngreen;
+}
+
+/* General Styles */
+
+[class*="heat-"] {
+    padding: 20px;
+}
+
+.heat-1 {
+    background-color: #000;
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.heat-2 {
+    background-color: #333;
+    color: white;
+    font-size: 2.2rem
+}
+
+.heat-3 {
+    background-color: #666;
+    color: white;
+    font-size: 1.6rem
+}
+
+.heat-4 {
+    background-color: #999;
+    font-size: 1.2rem
+}
+
+.heat-5 {
+    background-color: #ccc;
+    font-size: 1rem
 }
