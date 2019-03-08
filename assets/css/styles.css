@@ -1,0 +1,94 @@
+* {
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Srisakdi', cursive;
+}
+
+.navigation ul {
+  display: flex;
+  width: 100%;
+  min-height: 80px;
+  border: 3px dashed salmon;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.main {
+  position: relative;
+  display: flex;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.call-to-action {
+  position: absolute;
+  top: 50px;
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.call-to-action p {
+  text-align: center;
+}
+
+.main-item {
+  display: flex;
+  width: 50%;
+  height: 700px;
+  border: 3px dashed teal;
+  align-items: center;
+  justify-content: center;
+}
+
+.sub-main-items {
+  display: flex;
+}
+
+.sub-main-items li {
+  height: 200px;
+  margin: 20px;
+  text-align: center;
+  border: 3px dashed lawngreen;
+  flex: 1;
+  justify-content: center;
+}
+
+/* General Styles */
+
+[class*="heat-"] {
+  padding: 20px;
+}
+
+.heat-1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  background-color: #000;
+}
+
+.heat-2 {
+  font-size: 2.2rem;
+  color: white;
+  background-color: #333;
+}
+
+.heat-3 {
+  font-size: 1.6rem;
+  color: white;
+  background-color: #666;
+}
+
+.heat-4 {
+  font-size: 1.2rem;
+  background-color: #999;
+}
+
+.heat-5 {
+  font-size: 1rem;
+  background-color: #ccc;
+}
